@@ -211,7 +211,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &156791241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -265,6 +265,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 910003831}
+  - {fileID: 352865450}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &352865448
@@ -283,7 +284,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &352865449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -331,13 +332,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 352865448}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 33.4, y: 7.53, z: -55.08}
+  m_LocalRotation: {x: -0.0055682044, y: 0.0017000186, z: -0.000009466223, w: 0.9999831}
+  m_LocalPosition: {x: 2.7613175, y: -1.9259241, z: -31.950108}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1681161841}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 156791242}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -447,7 +448,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 23.916866
+  orthographic size: 48.368755
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -471,8 +472,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0055682044, y: -0.0017000186, z: 0.000009466212, w: 0.9999831}
-  m_LocalPosition: {x: 30.53, y: 9.1, z: -23.12}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 33.4, y: 7.53, z: -55.08}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -485,7 +486,7 @@ PlayableDirector:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: c9663945f8251ed4b83d82fbcfd5b7d4, type: 2}
   m_InitialState: 1
@@ -506,7 +507,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
   m_Name: 
@@ -2491,6 +2492,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
+  - {fileID: 1342350898}
   - {fileID: 619394802}
   - {fileID: 580650240}
   - {fileID: 1459369953}
@@ -2499,5 +2501,3 @@ SceneRoots:
   - {fileID: 930623851}
   - {fileID: 1652281593}
   - {fileID: 156791242}
-  - {fileID: 352865450}
-  - {fileID: 1342350898}
