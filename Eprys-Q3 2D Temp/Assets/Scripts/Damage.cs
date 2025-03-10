@@ -3,7 +3,7 @@ using UnityEngine;
 public class Damage : MonoBehaviour
 {
 
-    public playerHealth pHealth;
+    //public playerHealth pHealth;
     public int damage;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -23,7 +23,7 @@ public class Damage : MonoBehaviour
         
         if (other.gameObject.CompareTag("Player"))
         {
-            pHealth.health -= damage;
+            other.gameObject.GetComponent<playerHealth>().health -= damage;
         }
 
     }
